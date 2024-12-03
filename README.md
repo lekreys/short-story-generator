@@ -27,18 +27,22 @@ Follow these steps to get your local copy of the project up and running:
 
 2. Navigate to the project folder: Move into the project directory by running:
 
+   ```bash
    cd short-story-generator
 
 3. Install the project dependencies: This project uses npm to manage dependencies. Run the following command to install them:
 
+   ```bash
    npm install
 
-4. Set up your OpenAI API Key: Create a .env file in the root directory of the project (if not already present). Add your OpenAI API Key in the following format:
-
+5. Set up your OpenAI API Key: Create a .env file in the root directory of the project (if not already present). Add your OpenAI API Key in the following format:
+ 
+   ```bash
    VITE_OPENAI_API_KEY=your-openai-api-key-here
 
-5. Run the development server: After the dependencies are installed and your API key is set up, start the Vite development server with the following command:
+6. Run the development server: After the dependencies are installed and your API key is set up, start the Vite development server with the following command:
 
+   ```bash
    npm run dev
 
 This will start the app, and you can access it in your browser
